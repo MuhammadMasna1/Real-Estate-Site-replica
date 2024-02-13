@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--!== facicon link ===-->
+    <link
+      rel="shortcut icon"
+      href="./assets/images/Logo.png"
+      type="image/x-icon"
+    />
+    <!--!== google fonts link ===-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!--!== font awesome ===-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!--!== 2 style sheets ===-->
+    <link rel="stylesheet" href="./assets/style.css" />
+    <link rel="stylesheet" href="./assets/responsive.css" />
+    <title>Real Estate Landing page</title>
+  </head>
+  <body>
+    <!--!========== header  ==========-->
+    <div class="header-container w-100">
+      <header
+        class="header transition-3 section m-auto d-flex jc-between br-radius-50 p-relative"
+      >
+        <!--?=== logo ===-->
+        <div class="logo h-100 pointer">
+          <img
+            src="./assets/images/Logo.png"
+            alt="Build your building logo"
+            width="100%"
+            height="100%"
+          />
+        </div>
+        <!--?=== navbar ===-->
+        <nav
+          class="navbar d-flex al-center jc-between transition-3 br-radius-50"
+        >
+          <a href="#aboutus" class="txt-cap txt-center">about us</a>
+          <a href="#projects" class="txt-cap txt-center">projects</a>
+          <a href="#agents" class="txt-cap txt-center">agents</a>
+          <a href="#services" class="txt-cap txt-center">services</a>
+          <a href="#listings" class="txt-cap txt-center">listings</a>
+          <i class="fa-solid fa-magnifying-glass pointer"></i>
+
+          <!--todo=== under navbar btns ===-->
+          <div class="btns-cover w-100 jc-around d-none">
+            <button
+              class="btn pointer d-flex al-center jc-center br-radius-50 txt-cap"
+            >
+              other services
+            </button>
+            <i class="fa-solid fa-magnifying-glass pointer"></i>
+            <button
+              class="btn pointer d-flex al-center jc-center br-radius-50 txt-cap"
+            >
+              contact us
+            </button>
+          </div>
+        </nav>
+        <!--?=== header btns ===-->
+        <div class="btns-cover d-flex jc-around">
+          <button
+            class="btn pointer d-flex al-center jc-center br-radius-50 btn--secondary txt-cap"
+          >
+            other services
+          </button>
+          <button
+            class="btn pointer d-flex al-center jc-center br-radius-50 txt-cap"
+          >
+            contact us
+          </button>
+        </div>
+        <!--?=== toggle btns ===-->
+        <div class="toggle-btns d-none pointer d-flex al-center jc-center">
+          <i class="fa-solid fa-bars menu-bar d-none"></i>
+          <i class="fa-solid fa-xmark cancel-btn d-none"></i>
+        </div>
+      </header>
+    </div>
+
+    <div class="main-container m-auto">
+      <!--!========== hero section ==========-->
+      <main id="home" class="section hero-container grid grid-two-cols">
+        <!--?=== hero content ===-->
+        <div class="hero-content d-flex dir-col al-start jc-center">
+          <p class="txt-cap">welcome to realstate</p>
+          <h1 class="txt-cap hero-heading">manage your property</h1>
+          <p class="txt-cap">
+            your will have everything nearby supermarket, buses,station, the
+            carmen neighborhood, etc
+          </p>
+          <div class="hero-input p-relative">
+            <input
+              class="br-radius-50 w-100"
+              type="email"
+              name="hero-input"
+              placeholder="Enter you email"
+            />
+            <button class="txt-cap p-absolute h-100 br-radius-50">
+              get a quote
+            </button>
+          </div>
+        </div>
+
+        <!--?=== hero image ===-->
+        <div class="hero-img w-100 h-100">
+          <img src="./assets/images/hero.png" alt="" class="w-100 h-100" />
+        </div>
+      </main>
+
+      <!--!========== this easy section ==========-->
+      <section id="aboutus" class="section this-easy-container">
+        <!--?=== this easy heading ===-->
+        <div class="section-heading txt-center">
+          <p class="txt-cap">three steps. three minutes</p>
+          <h2 class="common-heading txt-center">
+            Everything should be this easy
+          </h2>
+        </div>
+        <!--?=== this easy content ===-->
+        <div class="this-easy-content grid grid-three-cols">
+          <!--todo=== item one ===-->
+          <div class="this-easy-item d-flex dir-col jc-start">
+            <img src="./assets/images/messages.png" alt="this is message" />
+            <p class="this-easy-sub-heading txt-cap">answer questions</p>
+            <p class="txt-cap">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
+              perspiciatis excepturi iste alias maxime soluta aut ex quis cumque
+              voluptates consectetur labore rerum earum, aliquam natus animi
+              ullam, hic voluptatibus?
+            </p>
+          </div>
+
+          <!--todo=== item two ===-->
+          <div class="this-easy-item d-flex dir-col jc-start">
+            <img src="./assets/images/sms.png" alt="this is message" />
+            <p class="this-easy-sub-heading txt-cap">select a quote</p>
+            <p class="txt-cap">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
+              perspiciatis excepturi iste alias maxime soluta aut ex quis cumque
+              voluptates consectetur labore rerum earum, aliquam natus animi
+              ullam, hic voluptatibus?
+            </p>
+          </div>
+
+          <!--todo=== item three ===-->
+          <div class="this-easy-item d-flex dir-col jc-start">
+            <img src="./assets/images/edit-2.png" alt="this is message" />
+            <p class="this-easy-sub-heading txt-cap">get registered</p>
+            <p class="txt-cap">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
+              perspiciatis excepturi iste alias maxime soluta aut ex quis cumque
+              voluptates consectetur labore rerum earum, aliquam natus animi
+              ullam, hic voluptatibus?
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!--!========== projects section ==========-->
+      <section id="projects" class="section projects-container">
+        <!--?=== projects heading ===-->
+        <div class="section-heading">
+          <p class="txt-cap">best project of the years</p>
+          <h2 class="common-heading">Our recent projects</h2>
+        </div>
+        <!--?=== projects content ===-->
+        <div class="projects-content grid grid-three-cols">
+          <!--todo=== item one ===-->
+          <div class="projects-item d-flex dir-col jc-start">
+            <div class="projects-img w-100">
+              <img
+                src="./assets/images/project-bg.png"
+                alt="this is message"
+                width="100%"
+              />
+            </div>
+
+            <p class="projects-sub-heading txt-cap">sobha hearland II villas</p>
+            <p class="txt-cap">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
+              perspiciatis excepturi iste alias maxime soluta aut ex quis
+              cumque.
+            </p>
+            <img
+              src="./assets/images/stars.png"
+              alt="this is project one's rating"
+            />
+          </div>
+
+          <!--todo=== item two ===-->
+          <div class="projects-item d-flex dir-col jc-start">
+            <div class="projects-img w-100">
+              <img
+                src="./assets/images/project-bg.png"
+                alt="this is message"
+                width="100%"
+              />
+            </div>
+
+            <p class="projects-sub-heading txt-cap">sobha hearland II villas</p>
+            <p class="txt-cap">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
+              perspiciatis excepturi iste alias maxime soluta aut ex quis
+              cumque.
+            </p>
+            <img
+              src="./assets/images/stars.png"
+              alt="this is project one's rating"
+            />
+          </div>
+
+          <!--todo=== item three ===-->
+          <div class="projects-item d-flex dir-col jc-start">
+            <div class="projects-img w-100">
+              <img
+                src="./assets/images/project-bg.png"
+                alt="this is message"
+                width="100%"
+              />
+            </div>
+
+            <p class="projects-sub-heading txt-cap">sobha hearland II villas</p>
+            <p class="txt-cap">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
+              perspiciatis excepturi iste alias maxime soluta aut ex quis
+              cumque.
+            </p>
+            <img
+              src="./assets/images/stars.png"
+              alt="this is project one's rating"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!--!========== global section ==========-->
+      <section class="section global-container">
+        <!--?=== global easy heading ===-->
+        <div class="section-heading d-flex jc-center">
+          <h2 class="common-heading global-heading txt-center w-100">
+            We are a global, boutique real estate brokerage
+          </h2>
+        </div>
+        <div class="global-content grid grid-two-cols">
+          <!--?=== global content ===-->
+          <div class="global-item d-flex dir-col al-start jc-start">
+            <p class="txt-cap global-item-heading">
+              the transfer of real estate
+            </p>
+            <p class="txt-cap">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum,
+              similique quasi! Provident voluptatem enim inventore esse,
+              necessitatibus eos ea neque, dolores ullam nulla praesentium,
+              cupiditate explicabo architecto. Quisquam, eius blanditiis!
+            </p>
+            <!--?=== global btns ===-->
+            <div class="global-btns d-flex">
+              <button class="btn global-btn txt-cap br-radius-50">
+                book now!
+              </button>
+              <button class="txt-cap btn global-btn--secondary br-radius-50">
+                get a quote
+              </button>
+            </div>
+            <!--?=== global counter ===-->
+            <div class="global-counters d-flex jc-between al-center">
+              <!--*=== item one ===-->
+              <div class="counter-item d-flex dir-col">
+                <span class="counter-number">12+</span>
+                <span class="txt-cap">customers</span>
+              </div>
+
+              <!--*=== item two ===-->
+              <div class="counter-item d-flex dir-col">
+                <span class="counter-number">14+</span>
+                <span class="txt-cap">offices</span>
+              </div>
+
+              <!--*=== item three ===-->
+              <div class="counter-item d-flex dir-col">
+                <span class="counter-number">10+</span>
+                <span class="txt-cap">students</span>
+              </div>
+            </div>
+          </div>
+
+          <!--?=== global image ===-->
+          <div class="global-img w-10 h-100">
+            <img src="./assets/images/global.png" alt="" class="w-100 h-100" />
+          </div>
+        </div>
+      </section>
+
+      <!--!========== subscribe section ==========-->
+      <section class="section subscribe-container grid grid-two-cols">
+        <!--?=== subscribe content ===-->
+        <div class="subscribe-content d-flex dir-col al-start jc-center">
+          <h2 class="txt-cap subscribe-heading">subscribe our newsletter</h2>
+          <p class="txt-cap">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita aliquam suscipit voluptatibus! Nostrum incidunt expedita modi qui sint quisquam, sequi, deleniti tempore atque sunt repellat. Qui facilis voluptas iure ipsam!
+          </p>
+          <div class="subscribe-input p-relative">
+            <input
+              class="br-radius-50 w-100"
+              type="email"
+              name="subscribe-input"
+              placeholder="Enter you email"
+            />
+            <button class="txt-cap p-absolute h-100 br-radius-50">
+              get a quote
+            </button>
+          </div>
+        </div>
+
+        <!--?=== subscribe image ===-->
+        <div class="subscribe-img w-100 h-100">
+          <img src="./assets/images/subscribe.png" alt="" class="w-100 h-100" />
+        </div>
+      </section>
+
+      <!--!========== drop up section ==========-->
+      <div class="drop-up d-flex al-center jc-center">
+        <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
+      </div>
+    </div>
+
+    <!--!========== JavaScript section ==========-->
+    <script src="./assets/app.js"></script>
+  </body>
+</html>
